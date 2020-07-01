@@ -1,0 +1,41 @@
+How to upgrade if this is not your first us.
+
+Open your index.html
+
+Delete the whole playerstatus section and use the following:
+
+
+
+        <!-- 🪐 - Player Count - 🪐 -->
+        <!---------------------------------------------------------------------->
+        Let's break some blocks? Join now at <b>mc.thegrassblock.org</b> with others
+        <b><span data-playercounter-ip="mc.thegrassblock.org:25565">Server Offline</span></b> players online.
+        <!---------------------------------------------------------------------->
+        <!-- 🪐 - Player Count - 🪐 -->
+
+
+Fell free to make the necessary changes.
+
+Other thing to add:
+
+Inside the index.html file.
+If you notice on the first part
+it opens a tag
+<head>
+
+
+then you can se link... link.. script..
+Just....
+
+Inside the "<head> and </head>"
+paste:
+
+    <!-- For the Player Count -->
+    <script src="https://cdn.jsdelivr.net/gh/leonardosnt/mc-player-counter/dist/mc-player-counter.min.js"></script>
+    <!-- Credits: https://github.com/leonardosnt/mc-player-counter -->
+
+don't make changes.
+Place it in your <head>
+
+Have questions ir need help?
+Join our discord! =D
